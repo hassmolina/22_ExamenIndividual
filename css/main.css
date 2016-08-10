@@ -1,6 +1,7 @@
 /*GENERAL*/
 *{
-	font-family: "verdana";
+	font-family: "Raleway";
+	color:#5d585d;
 }
 /*NAVIGATION*/
 .logo{
@@ -9,21 +10,23 @@
 ul li{
   display: inline-block;
 }
+#fondonav, #fondofooter{
+	background-color: #322732;
+}
 #fondonav{
-	background-color: black;
 	height: 75px;
 }
 /*HEADER*/
-#fondogrisblanco{
-	background-color: gray;
-}
 .botonload, .botonread{
 	border-radius: 25px;
 	border:none;
-	width: 100px;
-    height: 40px;
+	width: 30%;
+  height: 50px;
 }
-.textoprincipal{
+.botonload, .botontwitter{
+	background-color: rgb(78, 81, 82);
+}
+.textologo{
 	font-size: 230%;
 }
 .parrafoprincipal{
@@ -35,12 +38,31 @@ ul li{
 }
 /*TWITTER*/
 .textpink{
-	color:pink;
+	color:#da116c;
+}
+.iconotwitter{
+	height: 100px;
+	margin-left: 15%;
+	position: relative;
+}
+.botontwitter{
+	border: none;
+  width: 60%;
+  height: 25px;
+  border-radius: 5px
 }
 /*SECTION Y FOOTER*/
-#fondomorado{
-	background-color: purple;
+.iconoredsoc{
+	width: 11%;
+	border: 2.5px dashed white;
+	border-radius: 10px;
+}
+#fondofooter{
 	height: 900px;
+}
+.comillas{
+	width:70%;
+	margin-left: 70%;
 }
 input{
 	 width: 130%;
@@ -51,7 +73,7 @@ input{
 }
 .botonfollow{
 	border:none;
-	background-color: pink;
+	background-color: #da116c;
 	padding: 10px 15px;
 	border-radius: 2%;
 }
@@ -63,4 +85,7 @@ input{
 }
 .fontsizepeque{
 	font-size: 80%;
+}
+.footgentle{
+	display: inline;
 }
