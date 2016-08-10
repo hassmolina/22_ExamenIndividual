@@ -3,6 +3,14 @@
 	font-family: "Raleway";
 	color:#5d585d;
 }
+.botontwitter, .botonfollow, .botonsend, .botonload, .botonread{
+	border: none;
+}
+hr{
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
 /*NAVIGATION*/
 .logo{
 	font-family: serif;
@@ -19,7 +27,6 @@ ul li{
 /*HEADER*/
 .botonload, .botonread{
 	border-radius: 25px;
-	border:none;
 	width: 30%;
   height: 50px;
 }
@@ -46,7 +53,6 @@ ul li{
 	position: relative;
 }
 .botontwitter{
-	border: none;
   width: 60%;
   height: 25px;
   border-radius: 5px
@@ -58,7 +64,7 @@ ul li{
 	border-radius: 10px;
 }
 #fondofooter{
-	height: 900px;
+	height: 800px;
 }
 .comillas{
 	width:70%;
@@ -72,20 +78,15 @@ input{
     opacity: .5;
 }
 .botonfollow{
-	border:none;
 	background-color: #da116c;
 	padding: 10px 15px;
 	border-radius: 2%;
 }
 .botonsend{
-	border:none;
 	background-color: black;
 	padding: 12.5px 20px;
 	opacity: .5
 }
 .fontsizepeque{
 	font-size: 80%;
-}
-.footgentle{
-	display: inline;
 }
